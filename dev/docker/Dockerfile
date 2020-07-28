@@ -16,7 +16,7 @@ RUN git clone https://github.com/bolkedebruin/rdpgw.git && \
     mkdir -p /opt/rdpgw && \
     mv rdpgw /opt/rdpgw/rdpgw && \
     rm -rf /root/go && \
-    rm -rf /rdpgw
+    rm -rf /root/rdpgw
 
 COPY rdpgw.yaml /opt/rdpgw/rdpgw.yaml
 
